@@ -1,0 +1,15 @@
+Base path: /private/var/folders/fw/wjj52phs2h53nb35s9tnsyvm0000gv/T/AppTranslocation/0BCDCD66-F0E9-4C9D-B15A-E73BC7A0F93F/d/Unity.app/Contents
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=14 insize=11176 outsize=11297 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=5032 outsize=5141 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=11489 outsize=25117 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=7001 outsize=13549 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=1864 outsize=1145 ok=1
+Cmd: initializeCompiler
+
+Quitting shader compiler process
