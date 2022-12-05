@@ -10,14 +10,22 @@ public class Player : MonoBehaviour {
 		public float turnSpeed = 400.0f;
 		private Vector3 moveDirection = Vector3.zero;
 		public float gravity = 20.0f;
+		float turn;
 
-		void Start () {
+		float vertical; 
+		
+
+		void Start () 
+		{
 			controller = GetComponent <CharacterController>();
 			anim = gameObject.GetComponentInChildren<Animator>();
 		}
 
-		void Update (){
-			if (Input.GetKey ("w")) {
+		void Update ()
+		{
+			vertical = Input.GetAxis("Vertical");
+			turn = Input.GetAxis("Horizontal");
+			if (vertical > 0 || vertical < 0) {
 				anim.SetInteger ("AnimationPar", 1);
 			}  else {
 				anim.SetInteger ("AnimationPar", 0);
@@ -27,7 +35,7 @@ public class Player : MonoBehaviour {
 				moveDirection = transform.forward * Input.GetAxis("Vertical") * speed;
 			}
 
-			float turn = Input.GetAxis("Horizontal");
+			
 			transform.Rotate(0, turn * turnSpeed * Time.deltaTime, 0);
 			controller.Move(moveDirection * Time.deltaTime);
 			moveDirection.y -= gravity * Time.deltaTime;
