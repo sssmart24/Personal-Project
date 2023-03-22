@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 551
     width: 1425
     height: 701
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 74
+  controlID: 150
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 73
+  controlID: 149
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 113
+  controlID: 106
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,20 +396,19 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Devil
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/game3-23/Documents/GitHub/Personal-Project
+  m_LastProjectPath: /Users/game3/Desktop/Create With Code/Personal Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ca090000
     m_LastClickedID: 2506
-    m_ExpandedIDs: 00000000540b0000160c0000320c0000fe0c0000860d0000fa0d0000460f0000d00f00000c100000ee100000001100004a1100004c110000283100002a3100002c3100002e310000303100003231000034310000
+    m_ExpandedIDs: 00000000722a0000342b0000502b00001c2c0000a42c0000182d0000642e0000ee2e00002a2f00000c3000001e300000683000006a30000066330000683300006a3300006c3300006e3300007033000072330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -437,7 +436,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000540b0000160c0000320c0000fe0c0000860d0000fa0d0000460f0000d00f00000c100000ee100000001100004a1100004c110000283100002a3100002c3100002e310000303100003231000034310000
+    m_ExpandedIDs: ffffffff00000000722a0000342b0000502b00001c2c0000a42c0000182d0000642e0000ee2e00002a2f00000c3000001e300000683000006a30000066330000683300006a3300006c3300006e3300007033000072330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,7 +681,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: defbffff
+      m_ExpandedIDs: 20f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
